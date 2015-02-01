@@ -221,5 +221,5 @@ func exist(path string) bool {
 }
 
 func hasGitBash() bool {
-	return runtime.GOOS == "windows" && os.Getenv("HOME") != ""
+	return runtime.GOOS == "windows" && os.Getenv("HOME") == homeDir()
 }
