@@ -40,7 +40,7 @@ func main() {
 		case "current":
 			current()
 		default:
-			fmt.Println("fack")
+			fmt.Println("print help")
 		}
 	}
 
